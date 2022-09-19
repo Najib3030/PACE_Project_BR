@@ -4,9 +4,41 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css" defer>
   <title>Home</title>
 </head>
 <body>
-  <h1>PACE Project</h1>
+
+   <!--start of nav bar-->
+   <div class="topnav">
+    <nav class="navbar">
+        <div class="container relative">
+            <ul>
+                <li class="logo">
+                    <a href="/#"> <!--Clicking on logo should take us to Zabbix main Page when loged in-->
+                        <img src="Zabbix.png" alt="Zabbix">
+                    </a>
+                </li>
+                <li class="nav-link"><a href="/#">Home</a></li>
+                <li class="nav-link"><a href="/#!/about">About Us</a></li> <!--About.html should be constructed later-->
+                <li class="nav-link"><a href="/#!/help">Applicant Help</a></li> <!--help.html should be constructed later-->
+
+                <div class="login-container">
+                  <form action="">
+                    <input type="text" placeholder="Username" name="username">
+                    <input type="text" placeholder="Password" name="password">
+                    <button type="submit">Login</button>
+                </form>
+              </div>
+
+            </ul>
+
+            
+          </div>
+
+    </nav>
+
+
+
 </body>
 </html>

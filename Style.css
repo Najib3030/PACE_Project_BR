@@ -34,3 +34,27 @@
 #ul .login-container {
   float: right;
 }
+
+
+/* Footer styling */
+.footer{
+  background: #fff;
+  padding:  1rem;
+  border-top: 1px solid #999;
+
+}
+#footer{
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+}
+
+#footer{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+#footer{
+  color: #999;
+}

@@ -1,0 +1,35 @@
+
+/* Navbar styling section */
+.navbar{
+  background-color: #1f2937;
+  color: #fff;
+  position: relative;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+.navbar ul .nav-link a:hover{
+  background-color: #111827;
+}
+
+.navbar .logo img{
+  width: 40px;
+  padding: 0.5rem;
+}
+
+/* Style the input container */
+.topnav .navbar .login-container {
+  float: right;
+}

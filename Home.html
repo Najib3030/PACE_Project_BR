@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Style.css" defer>
+  <title>Home</title>
+</head>
+<body>
+
+   <!--start of nav bar-->
+   <div class="topnav">
+    <nav class="navbar">
+        <div class="container relative">
+            <ul>
+                <li class="logo">
+                    <a href="/#"> <!--Clicking on logo should take us to Zabbix main Page when loged in-->
+                        <img src="Zabbix.png" alt="Zabbix">
+                    </a>
+                </li>
+                <li class="nav-link"><a href="/Home.html">Home</a></li>
+                <li class="nav-link"><a href="/#!/about">About Us</a></li> <!--About.html should be constructed later-->
+                <li class="nav-link"><a href="/#!/help">Applicant Help</a></li> <!--help.html should be constructed later-->
+
+                <div class="login-container">
+                  <form action="">
+                    <input type="text" placeholder="Username" name="username">
+                    <input type="text" placeholder="Password" name="password">
+                    <button type="submit">Login</button>
+                </form>
+              </div>
+
+            </ul>
+          </div>
+
+    </nav>
+
+    <!--button selection-->
+    <button class="button">Generate Report</button>
+    <button class="button" style="float: right"></style>Toggle Vulnerability</button>
+
+    <div class="container">
+			<div class="row">
+				<div class="tree">
+					<ul>
+						<li> <a href="#"><img src="Images/Router.jpg"><span>Router</span></a>
+						<ul>
+							<li><a href="#"><img src="Images/Switch.jpg"><span>Switch</span></a>
+							<ul>
+								<li> <a href="#"><img src="Images/Computer.png"><span>Computer</span></a> </li>
+								<li> <a href="#"><img src="Images/Computer.png"><span>Computer</span></a> </li>
+							</ul>
+						</li>
+						<li> <a href="#"><img src="Images/Switch.jpg"><span>Switch</span></a>
+						<ul>
+							<li> <a href="#"><img src="Images/Computer.png"><span>Computer</span></a> </li>
+							<li> <a href="#"><img src="Images/Computer.png"><span>Computer</span></a> </li>
+							<li> <a href="#"><img src="Images/Computer.png"><span>Computer</span></a> </li>
+
+						</ul>
+					</li>
+					<li><a href="#"><img src="Images/Switch.jpg"><span>Switch</span></a></li>
+			</li>
+		</ul>
+	</div>
+</div>
+</div>
+
+    <!--footer Section-->
+    
+    <hr>
+    <footer id="footer">
+      <p id="copyright">Copyright &copy; by Macquarie University COMP3850 PACE Project BlueRydges</p>
+      <p id="attribution">Network Vulnerability Check All right reserved.</p>
+  </footer>
+
+</body>
+</html>

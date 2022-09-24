@@ -49,11 +49,6 @@
   color: #1f2937;
 }
 
-/* Style the input container */
-#ul .login-container {
-  float: right;
-}
-
 /* Creates a tree to show network */
 .container {
 	display: grid;

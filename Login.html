@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html lang="en" id="loginPageBG">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="loginStyle.css" defer>
+        <title>Login</title>
+    </head>
+  <body>
+    <!--start of nav bar-->
+    <div class="topnav">
+      <nav class="navbar">
+          <div class="container relative">
+              <ul>
+                  <li class="logo">
+                      <a href="/#"> <!--Clicking on logo should take us to Zabbix main Page when loged in-->
+                          <img src="Zabbix.png" alt="Zabbix">
+                      </a>
+                  </li>
+                  <li class="nav-link"><a href="/Home.html">Home</a></li>
+                  <li class="nav-link"><a href="/#!/about">About Us</a></li> <!--About.html should be constructed later-->
+                  <li class="nav-link"><a href="/#!/help">Applicant Help</a></li> <!--help.html should be constructed later-->
+              </ul>  
+            </div>
+      </nav>
+    </div>
+
+    <!--Main content-->
+    <div id="content">
+        <!--Login Form-->
+        <div id="loginFormContainer" class="bodyCont">
+        <form class="loginForm">
+          <h1>Sign In</h1>
+          <input type="text" name="username" placeholder="Username" required>
+          <input type="password" name="password" placeholder="Password" required>
+          <button type="submit">Sign In</button>
+        </form>
+        </div>
+
+        <!--Blank div-->
+        <div></div>
+
+        <!--About-->
+        <div id="loginHelp" class="bodyCont">
+          <h1>ZapLimitless</h1>
+          <p>ZapLimitless is a group of 6 budding university students wiht a passion for IT. We are comprised of 3 software students adn 3 cyber security students and our aim is to develop a functioning network mapping tool for our client BlueRydge.</p>
+          <h1>Help</h1>
+          <p>For any enquires contact us at 1300Zap</p>
+          <p>Or contact BlueRydge Directly</p>
+        </div>
+    </div>
+
+      <!--footer Section-->
+    <div class="footer">
+      <hr>
+      <footer id="footer">
+          <p id="copyright">Copyright &copy; by Macquarie University COMP3850 PACE Project BlueRydges</p>
+          <p id="attribution">Network Vulnerability Check All right reserved.</p>
+      </footer>
+    </div>
+
+  </body>
+</html>

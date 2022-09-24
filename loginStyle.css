@@ -1,0 +1,134 @@
+
+/* Navbar styling section */
+.navbar{
+    background-color: #1f2937;
+    color: #fff;
+    position: relative;
+    font-size: 20px;
+  }
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+  }
+  .navbar ul .nav-link a:hover{
+    background-color: yellow;
+    color: black;
+  }
+  
+  .navbar .logo img{
+    width: 40px;
+    padding: 0.5rem;
+  }
+
+  
+  /* Background from https://www.freepik.com/free-photos-vectors/yellow-gradient-background*/
+  #loginPageBG {
+    height: 100%;
+    background-image: url("Images/loginBG.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+ }
+
+ /* container for body elements */
+ #content {
+    display: grid;
+    grid-template-columns: 30% 10% 50%;
+    margin-left: 0px;
+    margin-top: 35px;
+    margin-right: 0px;
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  .bodyCont {
+    color: white;
+    background-color: rgba(31, 41, 55, 0.90);
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5%;
+    width: max-content;
+    height: max-content;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  /* login form */
+  .loginForm {
+      text-align: center;
+      padding-bottom: 15%;
+  }
+  .loginForm h1 {
+      font-size: 70px;
+      margin-bottom: 10%;
+  }
+  .loginForm input {
+      background-color: white;
+      font-size: 17px;
+      display: block;
+      padding-top: 14px;
+      padding-bottom: 12px;
+      text-align: center;
+      width: 100%;
+      margin: auto;
+      margin-bottom: 20px;
+      border-radius: 15px;
+      border: none;	
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .loginForm input::placeholder {
+    font-weight: bold;
+  }
+  .loginForm button {
+    font-weight: bold;
+      margin-top: 2%;
+      background-color: white;
+      font-size: 17px;
+      padding: 10px;
+      padding-left: 15px;
+      padding-right: 15px;
+      border: none;
+      border-radius: 10px;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .loginForm button:hover {
+      background-color: yellow;
+      color: black;
+      cursor: pointer;
+  }
+
+  /* other info */
+  #loginHelp {
+      text-align: center;
+      width: 100%;
+  }
+  #loginHelp h1 {
+    font-size: 50px;
+  }
+  #loginHelp p {
+    font-size: 22px;
+  }
+  
+
+  /* Footer styling */
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+  }
+  #footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

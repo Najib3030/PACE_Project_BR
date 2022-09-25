@@ -2,11 +2,13 @@
 //Array of all nodes
 const nodes = document.getElementsByClassName("node");
 
+
+
 //Change background colour when btn is clicked
 let vulnOnOff = 0;
 function toggleVuln() {
-    vulnOnOff ++;
-    if (vulnOnOff%2 == 1) {
+    vulnOnOff++;
+    if (vulnOnOff % 2 == 1) {
         for (const element of nodes) {
             element.style.background = "#4FC3F7";   //Remove this line
             //Replace with vulberability checks
@@ -28,5 +30,16 @@ function toggleVuln() {
             element.style.background = "#fff";
         }
     }
+}
+
+//Popup variable
+let popup = document.getElementById("popup");
+
+function openPopup() {
+    popup.classList.toggle("open-popup");
+}
+
+function closePopup() {
+    popup.classList.remove("open-popup");
 }
 

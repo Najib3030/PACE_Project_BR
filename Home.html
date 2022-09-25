@@ -33,9 +33,9 @@
 
     <div class="container">
 			<div class="row">
-				<div class="tree">
+				<div class="tree" >
 					<ul>
-						<li> <a href="#" class="node"><img src="Images/Router.jpg"><span>Router</span></a>
+						<li> <a href="#" class="node" onclick="openPopup()"><img src="Images/Router.jpg"><span>Router</span></a>
 						<ul>
 							<li><a href="#" class="node"><img src="Images/Switch.jpg"><span>Switch</span></a>
 							<ul>
@@ -52,9 +52,13 @@
 						</ul>
 					</li>
 					<li><a href="#" class="node"><img src="Images/Switch.jpg"><span>Switch</span></a></li>
-			</li>
-		</ul>
-	</div>
+			  </li>
+		  </ul>
+	  </div>
+    <div class = "popup" id = "popup"> 
+      <h2> Device Information </h2>
+      <button type = "button" onclick = "closePopup()"> X </button>
+     </div>
 </div>
 </div>
 

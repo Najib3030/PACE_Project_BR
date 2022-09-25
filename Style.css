@@ -161,6 +161,7 @@
 	border-radius: 5px;
 	border: 2px solid black;
 	position: fixed;
+	font-family: Tahoma;
 	top : 50%;
 	left: 50%;
 	z-index: 10;
@@ -208,7 +209,6 @@
 	list-style-type:none;
 	color:#F5EE9E;
 	stroke:2px solid black;
-	font-weight: bold;
 	font-size: 20px;
 
 }

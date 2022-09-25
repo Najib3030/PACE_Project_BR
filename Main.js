@@ -33,13 +33,15 @@ function toggleVuln() {
 }
 
 //Popup variable
-let popup = document.getElementById("popup");
 
-function openPopup() {
-    popup.classList.toggle("open-popup");
+
+function togglePopup() {
+    document.getElementById("popup").classList.add("active");
+    document.getElementById("overlay").classList.add("active");
 }
 
 function closePopup() {
-    popup.classList.remove("open-popup");
+    document.getElementById("popup").classList.remove("active");
+    document.getElementById("overlay").classList.remove("active");
 }
 

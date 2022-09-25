@@ -32,35 +32,68 @@
     <button class="button" onclick="toggleVuln()" style="float: right"></style>Toggle Vulnerability</button>
 
     <div class="container">
-			<div class="row">
+			<div data-open-button class class="row">
 				<div class="tree" >
 					<ul>
-						<li> <a href="#" class="node" onclick="openPopup()"><img src="Images/Router.jpg"><span>Router</span></a>
+						<li> <a href="#" class="node"><img src="Images/Router.jpg"><span onclick="togglePopup()">Router</span></a>
 						<ul>
-							<li><a href="#" class="node"><img src="Images/Switch.jpg"><span>Switch</span></a>
+							<li><a href="#" class="node"><img src="Images/Switch.jpg"><span onclick="togglePopup()">Switch</span></a>
 							<ul>
-								<li> <a href="#" class="node"><img src="Images/Computer.png"><span>Computer</span></a> </li>
-								<li> <a href="#" class="node"><img src="Images/Computer.png"><span>Computer</span></a> </li>
+								<li> <a href="#" class="node"><img src="Images/Computer.png"><span onclick="togglePopup()">Computer</span></a> </li>
+								<li> <a href="#" class="node"><img src="Images/Computer.png"><span onclick="togglePopup()">Computer</span></a> </li>
 							</ul>
 						</li>
-						<li> <a href="#" class="node"><img src="Images/Switch.jpg"><span>Switch</span></a>
+						<li> <a href="#" class="node"><img src="Images/Switch.jpg"><span onclick="togglePopup()">Switch</span></a>
 						<ul>
-							<li> <a href="#" class="node"><img src="Images/Computer.png"><span>Computer</span></a> </li>
-							<li> <a href="#" class="node"><img src="Images/Computer.png"><span>Computer</span></a> </li>
-							<li> <a href="#" class="node"><img src="Images/Computer.png"><span>Computer</span></a> </li>
+							<li> <a href="#" class="node"><img src="Images/Computer.png"><span onclick="togglePopup()">Computer</span></a> </li>
+							<li> <a href="#" class="node"><img src="Images/Computer.png"><span onclick="togglePopup()">Computer</span></a> </li>
+							<li> <a href="#" class="node"><img src="Images/Computer.png"><span onclick="togglePopup()">Computer</span></a> </li>
 
 						</ul>
 					</li>
-					<li><a href="#" class="node"><img src="Images/Switch.jpg"><span>Switch</span></a></li>
+					<li><a href="#" class="node"><img src="Images/Switch.jpg"><span onclick="togglePopup()">Switch</span></a></li>
 			  </li>
 		  </ul>
 	  </div>
-    <div class = "popup" id = "popup"> 
-      <h2> Device Information </h2>
-      <button type = "button" onclick = "closePopup()"> X </button>
+    <div class = "modal" id = "popup">
+      <div class = "modal-header">
+        <div class = "title"> <u>Device Information </u></div> 
+        <button class = "close-button" onclick="closePopup()"> &times; </button>
+      </div>
+      <ul class="info">
+        <li> Asset: Computer #3 </li>
+        <li> IP Address: ******</li>
+        <li> Subnet: ******</li>
+        <li> Asset Type : Computer</li>
+        <li> Domain Name: Macquarie University</li>
+        <li> Vulnerabilies:</li>
+            <ul class="vuln">
+              <li>Vuln 1:</li>
+                <ul>
+                  <li> Date detected : 01/01/2022</li>
+                  <li> Severity/CVE Score: High/8</li>
+                  <li>Treatment:</li>
+                  <li>Available Patches:</li>
+                  <li>Known Exploits:</li>
+                </ul>
+                <li>Vuln 2:</li>
+                <ul>
+                  <li> Date detected : 01/01/2022</li>
+                  <li> Severity/CVE Score: High/8</li>
+                  <li>Treatment:</li>
+                  <li>Available Patches:</li>
+                  <li>Known Exploits:</li>
+                </ul>
+                
+            </ul>
+
+      </ul> 
+        
+      </div>
      </div>
 </div>
 </div>
+<div id ="overlay"></div>
 
     <!--footer Section-->
     

@@ -53,6 +53,8 @@
 .container {
 	display: grid;
 	align-items: center;
+	cursor: grab;
+	overflow: auto;
 }
 
 .tree {

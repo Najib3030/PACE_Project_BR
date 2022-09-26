@@ -38,6 +38,7 @@
     background-image: url("Images/loginBG.jpeg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    font-family: Arial, sans-serif;
  }
 
  /* container for body elements */
@@ -47,7 +48,6 @@
     margin-left: 0px;
     margin-top: 35px;
     margin-right: 0px;
-    font-family: Arial, sans-serif;
     height: 100%;
   }
   .bodyCont {

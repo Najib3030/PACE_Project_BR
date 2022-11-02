@@ -54,7 +54,7 @@
 	display: grid;
 	align-items: center;
 	cursor: grab;
-	overflow: auto;
+	/* overflow: auto; */
 }
 
 .tree {

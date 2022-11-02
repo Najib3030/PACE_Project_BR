@@ -157,9 +157,9 @@
 /* Pop-up styling */
 .modal {
 	width : 350px;
-	height: 500px;
+	height: 600px;
 	max-width: 80%;
-	background: #A5ABAF;
+	background: #3572f6;
 	border-radius: 5px;
 	border: 2px solid black;
 	position: fixed;
@@ -190,7 +190,7 @@
 	font-size: 1.5em;
 	font-weight: bold;
 	text-align: left;
-	color:#F5EE9E;
+	color:#ffffff;
 }
 
 .modal-header .close-button {
@@ -209,15 +209,23 @@
 	padding: 0;
 	text-align: left;
 	list-style-type:none;
-	color:#F5EE9E;
+	color:#f2f2f2;
 	stroke:2px solid black;
 	font-size: 20px;
 
 }
 
 .info .vuln {
-	color:rgb(230, 59, 59);
+	color:rgb(255, 0, 0);
+	font-weight: bold;
 	font-size: 15px;
+}
+
+.info li img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 10px;
+	margin: auto;
 }
 
 

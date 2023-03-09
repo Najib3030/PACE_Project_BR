@@ -2,8 +2,6 @@
 //Array of all nodes
 const nodes = document.getElementsByClassName("node");
 
-
-
 //Change background colour when btn is clicked
 let vulnOnOff = 0;
 function toggleVuln() {
@@ -15,6 +13,7 @@ function toggleVuln() {
             if (element.vuln == 'low') {
                 //Blue
                 element.style.background = "#4FC3F7";
+                
             }
             else if (element.vuln == 'medium') {
                 //Yellow
@@ -28,9 +27,12 @@ function toggleVuln() {
     } else {
         for (const element of nodes) {
             element.style.background = "#fff";
+            
         }
     }
 }
+
+
 
 //Popup variable
 
